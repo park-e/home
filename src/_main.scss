@@ -7,12 +7,9 @@ $quaternary-color: #ffffff;
 $quinary-color: #f20000;
 $border-color: rgba(255, 255, 255, 0.15);
 
-$error: #fa4a4a;
-
 $font: Montserrat;
 
 $border-style: 0.1rem solid $border-color;
-$form-border: 0.2rem solid $secondary-color;
 
 @mixin font-style-primary {
   color: $quaternary-color;
@@ -22,10 +19,4 @@ $form-border: 0.2rem solid $secondary-color;
   font-size: 1.5rem;
   line-height: 1.8125rem;
   letter-spacing: 0.05rem;
-}
-
-@mixin font-style-secondary {
-  font-weight: normal;
-  font-size: 1rem;
-  line-height: 1rem;
 }

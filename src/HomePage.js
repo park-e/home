@@ -2,16 +2,6 @@ import React from 'react';
 
 import Header from './components/header/Header';
 import CustomButton from './components/custom-button/CustomButton';
-// import { ReactComponent as DriveImage } from '../../components/icons/drive.svg';
-// import GithubButton from '../../components/icons/githubButton.jpg';
-// import { ReactComponent as Logo } from '../../components/icons/logo.svg';
-// import { ReactComponent as Facebook } from '../../components/icons/facebook.svg';
-// import { ReactComponent as Twitter } from '../../components/icons/twitter.svg';
-// import { ReactComponent as Youtube } from '../../components/icons/youtube.svg';
-// import { ReactComponent as LinkedIn } from '../../components/icons/linkedin.svg';
-// import { ReactComponent as Instagram } from '../../components/icons/instagram.svg';
-// import { ReactComponent as Globe } from '../../components/icons/globe.svg';
-// import { ReactComponent as Pin } from '../../components/icons/pin.svg';
 
 import './HomePage.scss';
 
@@ -46,7 +36,7 @@ class HomePage extends React.Component {
   }
 
   componentDidMount() {
-    this.interval = setInterval(() => this.random(), 3000);
+    this.interval = setInterval(() => this.random(), 6000);
   }
 
   componentWillUnmount() {
@@ -232,7 +222,7 @@ class HomePage extends React.Component {
                 />
               </div>
             </div>
-            <div>2020 | Parké</div>
+            <div>2020 | Parkè</div>
           </section>
         </div>
       </>

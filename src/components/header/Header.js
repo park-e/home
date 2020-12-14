@@ -1,13 +1,4 @@
 import React from 'react';
-// import { connect } from 'react-redux';
-// import { createStructuredSelector } from 'reselect';
-
-// import { ReactComponent as HeaderIcon } from '../icons/header.svg';
-// import { ReactComponent as Logo } from '../icons/logo.svg';
-// import { ReactComponent as Hamburger } from '../icons/hamburger.svg';
-
-// import { selectHeaderModal } from '../../redux/modal/modalSelectors';
-// import { toggleHeaderModal } from '../../redux/modal/modalActions';
 
 import './Header.scss';
 
@@ -21,7 +12,6 @@ class Header extends React.Component {
   render() {
     return (
       <div className='header-mob header-web'>
-        {/* <HeaderIcon className='header-mob-icon' />*/}
         <div>
           <img
             className='header-web-item logo'
