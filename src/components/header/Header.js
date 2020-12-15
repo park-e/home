@@ -1,5 +1,4 @@
 import React from 'react';
-
 import './Header.scss';
 
 class Header extends React.Component {
@@ -13,11 +12,13 @@ class Header extends React.Component {
     return (
       <div className='header-mob header-web'>
         <div>
+        <a href="https://park-e.github.io">
           <img
             className='header-web-item logo'
             src='https://cdn.jsdelivr.net/gh/park-e/cdn@latest/Logo/logo.svg'
             alt=''
           />
+          </a>
           <span>PARKÈ</span>
         </div>
         <div className='header-web-item header-links'>
