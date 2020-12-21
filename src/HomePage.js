@@ -35,7 +35,7 @@ class HomePage extends React.Component {
   }
 
   componentDidMount() {
-    this.interval = setInterval(() => this.random(), 6000);
+    this.interval = setInterval(() => this.random(), 3000);
   }
 
   componentWillUnmount() {
