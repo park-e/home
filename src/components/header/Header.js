@@ -16,16 +16,8 @@ class Header extends React.Component {
             className='header-web-item logo'
             src='https://cdn.jsdelivr.net/gh/park-e/cdn@latest/Logo/logo.svg'
             alt=''
-            onClick={() =>
-              (window.location.href = 'https://parke-9a03d.web.app')
-            }
           />
-          <span
-            onClick={() =>
-              (window.location.href = 'https://parke-9a03d.web.app')
-            }>
-            PARKÈ
-          </span>
+          <span>PARKÈ</span>
         </div>
         <div className='header-web-item header-links'>
           <div
