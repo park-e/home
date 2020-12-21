@@ -12,18 +12,34 @@ class Header extends React.Component {
     return (
       <div className='header-mob header-web'>
         <div>
-        <a href="https://park-e.github.io">
           <img
             className='header-web-item logo'
             src='https://cdn.jsdelivr.net/gh/park-e/cdn@latest/Logo/logo.svg'
             alt=''
+            onClick={() =>
+              (window.location.href = 'https://parke-9a03d.web.app')
+            }
           />
-          </a>
-          <span>PARKÈ</span>
+          <span
+            onClick={() =>
+              (window.location.href = 'https://parke-9a03d.web.app')
+            }>
+            PARKÈ
+          </span>
         </div>
         <div className='header-web-item header-links'>
-          <div>Park</div>
-          <div>Become a partner</div>
+          <div
+            onClick={() =>
+              (window.location.href = 'https://parke-9a03d.web.app')
+            }>
+            Park
+          </div>
+          <div
+            onClick={() =>
+              (window.location.href = 'https://parke-owner.web.app')
+            }>
+            Become a partner
+          </div>
         </div>
         <div className='header-web-item header-user'>
           <div
@@ -36,8 +52,18 @@ class Header extends React.Component {
           </div>
 
           <div className='header-modal'>
-            <span>Login / Sign Up</span>
-            <span>Rent your space</span>
+            <span
+              onClick={() =>
+                (window.location.href = 'https://parke-9a03d.web.app/signin')
+              }>
+              Login / Sign Up
+            </span>
+            <span
+              onClick={() =>
+                (window.location.href = 'https://parke-owner.web.app/signin')
+              }>
+              Rent your space
+            </span>
             <span>Help</span>
           </div>
         </div>

@@ -69,9 +69,12 @@ class HomePage extends React.Component {
             <div>
               Reserve <br />
               Space
-              <a href="https://parke-9a03d.web.app/" style={{textDecoration:'none'}}>
-              <CustomButton>Search</CustomButton>
-              </a>
+              <CustomButton
+                onClick={() =>
+                  (window.location.href = 'https://parke-9a03d.web.app')
+                }>
+                Search
+              </CustomButton>
             </div>
           </section>
 
@@ -141,14 +144,14 @@ class HomePage extends React.Component {
                 Here's <span>Parkè</span>!
               </h1>
               <span>Reserve your space. Drive sans worries.</span>
-              <a href="https://github.com/park-e/cdn/blob/main/Apps/finder.apk?raw=true">
               <img
                 src='https://cdn.jsdelivr.net/gh/park-e/cdn@latest/landing/GitHubButton.svg'
                 alt=''
-                height='80rem'
-                style={{marginTop:'6rem'}}
+                onClick={() =>
+                  (window.location.href =
+                    'https://github.com/park-e/cdn/blob/main/Apps/finder.apk?raw=true')
+                }
               />
-              </a>
             </div>
             <div>
               <img
@@ -221,13 +224,14 @@ class HomePage extends React.Component {
                 <span>IN</span>
               </div>
               <div>
-              <a href="https://github.com/park-e/cdn/blob/main/Apps/finder.apk?raw=true">
                 <img
                   src='https://cdn.jsdelivr.net/gh/park-e/cdn@latest/landing/GitHubButton.svg'
                   alt='Download Button'
-                  height = '70rem'
+                  onClick={() =>
+                    (window.location.href =
+                      'https://github.com/park-e/cdn/blob/main/Apps/finder.apk?raw=true')
+                  }
                 />
-                </a>
               </div>
             </div>
             <div>2020 | Parkè</div>
